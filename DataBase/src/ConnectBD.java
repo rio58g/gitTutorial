@@ -17,6 +17,8 @@ public class ConnectBD {
 		String login = "postgres";
 		String pass = "sdfet45";
 		
+		System.out.println("Table Users:");
+		
 		try {
 			conn = DriverManager.getConnection(url, login, pass);
 			st = conn.createStatement();
